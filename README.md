@@ -4,11 +4,11 @@ To run, you will need:
 * goal-tracker application running on local port 8080
 
 - To run all tests locally:
-      mvn clean verify -Plocal
+      mvn clean test -Plocal
 
 - To run smoke tests locally:
-      mvn clean verify -Plocal -Dcucumber.options="--tags @smoke"
+      mvn clean test -Plocal -Dcucumber.options="--tags @smoke"
 
 - To run regression tests locally:
-      mvn clean verify -Plocal -Dcucumber.options="--tags @regression"
+      mvn clean test -Plocal -Dcucumber.options="--tags @regression"
 
